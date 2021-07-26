@@ -63,8 +63,9 @@ export default function Home() {
         <p>
           <strong>{NAME}</strong> is a group for queer and questioning people
           in London that would like to meet-up or make friends in a safe space.
-          We welcome anyone that identifies as LGBT+, or is questioning,
-          and although our focus 
+          We welcome anyone that identifies as LGBT+, or is questioning.
+          And although our group primarily consists of people in their 20s and
+          30s, we welcome you regardless of age.
         </p>
 
         <h2 id='events'>
