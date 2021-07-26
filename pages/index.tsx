@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const THEME = {
   colors: {
@@ -77,6 +77,14 @@ const Footer = styled.footer`
   padding: 1.5rem 0 0;
 `
 
+const Logo = styled.img`
+  display: block;
+  margin: 2rem auto;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 300px;
+`
+
 const NAME = 'Queer 20s/30s London';
 
 export default function Home() {
@@ -96,6 +104,9 @@ export default function Home() {
       </Header>
 
       <MAIN>
+        <div>
+          <Logo src="/lgbt-london.svg" />
+        </div>
 
         <p>
           <strong>{NAME}</strong> is a group for queer and questioning people
