@@ -28,6 +28,44 @@ const Header = styled.header`
   padding: 1.5rem;
 `
 
+const London = styled.div`
+  margin: 0 -100vw;
+  position: relative;
+  height: 40vh;
+  display: flex;
+
+  &::before {
+    display: block;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-right: -10px;
+    content: '';
+    background-image: url(/lgbt-london-long-left.svg);
+    background-size: auto 100%;
+  }
+
+  &::after {
+    display: block;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-left: -10px;
+    content: '';
+    background-image: url(/lgbt-london-long-right.svg);
+    background-size: auto 100%;
+  }
+
+  > img {
+    display: block;
+    height: 100%;
+
+    &.center {
+      margin: 0 auto;
+    }
+  }
+`
+
 const MAIN = styled.main`
   max-width: ${MAX_WIDTH_PX}px;
   margin: 0 auto;
@@ -35,9 +73,8 @@ const MAIN = styled.main`
 `;
 
 const Footer = styled.footer`
-  background-color: ${THEME.colors.purple};
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.5rem 0 0;
 `
 
 const NAME = 'Queer 20s/30s London';
@@ -140,7 +177,9 @@ export default function Home() {
       </MAIN>
 
       <Footer>
-
+        <London>
+          <img className="center" src="/lgbt-london-long.svg" />
+        </London>
       </Footer>
     </div>
   )
