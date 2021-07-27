@@ -73,7 +73,8 @@ const MAIN = styled.main`
 `;
 
 const Footer = styled.footer`
-  text-align: center;
+  width: 100%;
+  overflow: hidden;
   padding: 1.5rem 0 0;
 `
 
