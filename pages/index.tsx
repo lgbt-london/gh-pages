@@ -70,6 +70,7 @@ const MAIN = styled.main`
   max-width: ${MAX_WIDTH_PX}px;
   margin: 0 auto;
   padding: 0 1.5rem 3rem;
+  line-height: 150%;
 `;
 
 const Footer = styled.footer`
