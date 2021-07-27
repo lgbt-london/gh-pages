@@ -136,9 +136,29 @@ export default function Home() {
         </p>
 
         <ul>
-          <li><a href='https://chat.whatsapp.com/ErbaPyOaKXFHbCKWSph7kI' target='_blank' rel='nofollow noreferrer noopener'>WhatsApp</a></li>
-          <li><a href='https://signal.group/#CjQKIHnYVh1vlMopV8GxbYv9wmTaB4hA6nZVOl2GFFE4haVjEhB-VLWbec2cvQWxajPA6w1w' target='_blank' rel='nofollow noreferrer noopener'>Signal</a></li>
-          <li><a href='https://discord.gg/pnGyfjh7VG' target='_blank' rel='nofollow noreferrer noopener'>Discord</a></li>
+          <li>
+            <strong><a href='https://chat.whatsapp.com/ErbaPyOaKXFHbCKWSph7kI' target='_blank' rel='nofollow noreferrer noopener'>WhatsApp</a></strong>
+            <br/>
+            Due to the size limit of WhatsApp groups, this group is for meetup coordination only.
+            We have additional WhatsApp groups you may also join for other purposes:
+            <ul>
+              <li><a href='https://bit.ly/3glJAiu' target='_blank' rel='nofollow noreferrer noopener'>General ChitChat</a> (Official)</li>
+              <li><a href='https://bit.ly/34WQDJt' target='_blank' rel='nofollow noreferrer noopener'>London East</a> (Community Run)</li>
+              <li><a href='https://bit.ly/3geYd7y' target='_blank' rel='nofollow noreferrer noopener'>London South</a> (Community Run)</li>
+              <li><a href='https://chat.whatsapp.com/HXFegZD6tKt09PtgsHlQOH' target='_blank' rel='nofollow noreferrer noopener'>London West</a> (Official)</li>
+              <li><a href='https://chat.whatsapp.com/I0C1vnuESH07B6E7dvlBbK' target='_blank' rel='nofollow noreferrer noopener'>Brighton</a> (Community Run)</li>
+            </ul>
+          </li>
+          <li>
+            <strong><a href='https://signal.group/#CjQKIHnYVh1vlMopV8GxbYv9wmTaB4hA6nZVOl2GFFE4haVjEhB-VLWbec2cvQWxajPA6w1w' target='_blank' rel='nofollow noreferrer noopener'>Signal</a></strong>
+            <br/>
+            This group is both for meetup coordination and general chitchat.
+          </li>
+          <li>
+            <strong><a href='https://discord.gg/pnGyfjh7VG' target='_blank' rel='nofollow noreferrer noopener'>Discord</a></strong>
+            <br/>
+            This discord server includes a multitude of different rooms for meetup coordination, chit-chat, different areas, and various hobbies &amp; interests.
+          </li>
         </ul>
 
         <p>
