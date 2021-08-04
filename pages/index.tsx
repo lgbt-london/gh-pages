@@ -119,6 +119,10 @@ export default function Home() {
           30s, we welcome you regardless of age.
         </p>
 
+        <p>
+          You can join our{' '}<a href="https://www.meetup.com/queer-london-20s-30s/" target='_blank' rel='noopener'>Meetup Group</a>{' '}to stay up-to-date with all of our events.
+        </p>
+
         <h2 id='events'>
           Events / Join Us!
         </h2>
@@ -205,7 +209,10 @@ export default function Home() {
 
         <h2>Social</h2>
 
-        <li><a href='https://www.instagram.com/lgbt_london/' target='_blank' rel='nofollow noreferrer noopener'>Instagram</a></li>
+        <ul>
+          <li><a href='https://www.instagram.com/lgbt_london/' target='_blank' rel='noopener'>Instagram</a></li>
+          <li><a href="https://www.meetup.com/queer-london-20s-30s/" target='_blank' rel='noopener'>Meetup Group</a></li>
+        </ul>
 
 
       </MAIN>
